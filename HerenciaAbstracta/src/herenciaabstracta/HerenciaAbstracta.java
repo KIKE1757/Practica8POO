@@ -10,7 +10,7 @@ public class HerenciaAbstracta {
         Cilindro cilindro = new Cilindro (20,30,3.3,10.75);
         //Obtener nombre y representación de cadena de cada objeto
         System.out.println("Nombre y representación de cadena: ");
-        System.out.println(punto.obtenerNombre()+": "+punto+"\n"+circulo.obtenerNombre()+": "+cilindro+"\n"+cilindro.obtenerNombre()+": "+cilindro+"\n");
+        System.out.println(punto.obtenerNombre()+": "+punto+"\n"+circulo.obtenerNombre()+": "+circulo+"\n"+cilindro.obtenerNombre()+": "+cilindro+"\n");
         //Crear un arreglo de Figuras
         Figura arregloDeFiguras[]= new Figura[3];
         //Apuntar arregloDeFiguras[0] al objeto de la subclase Punto

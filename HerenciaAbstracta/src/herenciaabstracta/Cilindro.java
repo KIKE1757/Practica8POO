@@ -37,6 +37,6 @@ public class Cilindro extends Circulo{
 
 	//sobrescribir toString para devolver representación String del Cilindro
         public String toString(){
-		return "Centro = " + super.toString() + ", Radio = "  + obtenerRadio() + ", Altura = " + obtenerAltura();
+		return super.toString() + ", Altura = " + obtenerAltura();
 	}
 }
